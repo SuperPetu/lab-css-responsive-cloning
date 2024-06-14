@@ -1,14 +1,14 @@
-
-
-.user .abajo{
+.user .abajo {
   width: auto;
 }
-.user{
+
+.user {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-.user img{
+
+.user img {
   height: 50px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -17,27 +17,30 @@
   -o-border-radius: 50%;
 }
 
-.voto{
+.voto {
   width: 18px !important;
-  height: 30px ;
+  height: 30px;
 }
-.gris{
+
+.gris {
   color: grey;
 }
-h1{
+
+h1 {
   font-size: larger;
 }
 
-.X{
+.X {
   width: 10px;
 }
+
 body {
   background-color: rgb(230, 224, 224);
   margin: 0px;
   overflow-y: scroll;
 }
 
-hr{
+hr {
   margin: 0px;
   border-left: 0px;
   border-right: 0px;
@@ -53,20 +56,19 @@ hr{
   padding-top: 7px;
 }
 
-.abajo{
+.abajo {
   width: 400px;
   display: flex;
   justify-content: space-between;
 }
-.os{
+
+.os {
   display: flex;
   align-items: center;
-
   gap: 3px;
 }
 
-
-.movil{
+.movil {
   display: flex;
   align-items: center;
   font-size: smaller;
@@ -81,12 +83,12 @@ hr{
   -o-border-radius: 10%;
 }
 
-.data{
+.data {
   display: flex;
   gap: 10px;
 }
 
-.yap{
+.yap {
   font-size: smaller;
   border: solid 1px grey;
   border-radius: 10%;
@@ -95,27 +97,27 @@ hr{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:5px;
+  gap: 5px;
   -webkit-border-radius: 10%;
   -moz-border-radius: 10%;
   -ms-border-radius: 10%;
   -o-border-radius: 10%;
 }
 
-.texto h2{
+.texto h2 {
   margin: 2px;
 }
 
-.texto > p{
+.texto > p {
   margin: 2px;
   margin-bottom: 13px;
 }
 
-.box-3 .texto{
+.box-3 .texto {
   margin: 20px;
 }
 
-.yap > img{
+.yap > img {
   width: 10px;
 }
 
@@ -124,11 +126,13 @@ a {
   color: grey; /* Heredar el color del elemento padre */
   font-size: large;
 }
+
 header > input {
   background: url(./images/search.png) no-repeat scroll 0px 0px;
   padding-left: 30px;
   height: 20px;
 }
+
 .barra {
   display: flex;
   align-items: center;
@@ -154,10 +158,12 @@ header > input {
   position: sticky;
   right: 0px;
 }
+
 .flechas > * {
   width: 20px;
 }
-body{
+
+body {
   padding-top: 0px;
   display: flex;
   align-items: center;
@@ -165,8 +171,7 @@ body{
   flex-direction: column; /* Para que los elementos se apilen verticalmente */
 }
 
-
-.spam, .infospam{
+.spam, .infospam {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -178,12 +183,12 @@ body{
   font-size: 14px;
 }
 
-.spam > img{
+.spam > img {
   width: 10px;
 }
 
-.spam button, .box-3 button{
-  color:#f9f9f9;
+.spam button, .box-3 button {
+  color: #f9f9f9;
   background-color: rgb(208, 97, 6);
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -194,114 +199,101 @@ body{
   padding: 8px;
 }
 
-.spam button:hover, .box-3 button:hover{
+.spam button:hover, .box-3 button:hover {
   background-color: rgb(156, 73, 5);
 }
 
-.negrita{
+.negrita {
   font-weight: bolder;
 }
 
-.wel, .sub{
+.wel, .sub {
   display: flex;
   align-items: center;
-  gap: 10px
+  gap: 10px;
 }
-.sub > input{
+
+.sub > input {
   padding: 8px;
 }
 
-
-
-
-main img{
+main img {
   width: 85px;
 }
 
-main > * > *{
+main > * > * {
   margin-top: 20px;
   background-color: #f9f9f9;
   width: 100%;
 }
 
-main{
+main {
   display: flex;
   justify-content: center;
   flex-direction: column; /* Para que los elementos se apilen verticalmente */
-
 }
-.box-1{
+
+.box-1 {
   display: flex;
   flex-direction: column;
 }
 
-.box-1 > *{
+.box-1 > * {
   display: flex;
   align-items: center;
   padding: 20px;
   gap: 10px;
 }
 
-
-
-.linea-1{
+.linea-1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
 }
-.linea-5{
+
+.linea-5 {
   display: flex;
   font-size: small;
   align-items: center;
   justify-content: center;
-  gap: 5px
+  gap: 5px;
 }
 
-.linea-5 .X{
+.linea-5 .X {
   padding-right: 0px;
-
 }
 
-.X{
+.X {
   padding-right: 10px;
 }
-.popnew{
+
+.popnew {
   display: flex;
   gap: 10px;
 }
 
-.box-3 .linea-2{
+.box-3 .linea-2 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
 }
 
-.box-3 .linea-2 > p{
+.box-3 .linea-2 > p {
   margin-bottom: 0px;
   margin-top: 0px;
-
 }
 
-.box-3 .linea-2 > *{
+.box-3 .linea-2 > * {
   margin: 17px;
 }
 
-
-
-.box-3 .linea-2 > button{
+.box-3 .linea-2 > button {
   font-size: small;
 }
 
-
-
-
-
-
-
-footer{
+footer {
   width: 50px;
   height: 50px;
   background-color: grey;
@@ -336,23 +328,17 @@ footer{
     bottom: 20px;
   }
 }
-
-footer:hover{
+footer:hover {
   background-color: rgb(85, 84, 84);
 }
 
-
-
-
 @media (width > 1200px) {
-
-  .abajo{
+  .abajo {
     width: 760px;
   }
   .principio {
     height: 100px;
   }
-
   .principio {
     padding-top: 0px;
     display: flex;
@@ -360,11 +346,9 @@ footer:hover{
     justify-content: center;
     flex-direction: column; /* Para que los elementos se apilen verticalmente */
   }
-
   .P {
     width: 50px;
   }
-
   header {
     width: 1100px;
     display: flex;
@@ -378,43 +362,33 @@ footer:hover{
   .barra {
     width: 1180px;
   }
-
   header > a {
     text-decoration: none; /* Quitar subrayado */
     color: grey; /* Heredar el color del elemento padre */
   }
-
-  .spam{
+  .spam {
     width: 1160px;
     margin-left: 0px;
     margin-right: 0px;
   }
-
-
-  main > *{
+  main > * {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
-  
-  main{
+  main {
     width: 1180px;
     display: grid;
     grid-template-columns: 77% 20%;
     gap: 1%;
   }
-
-
-  footer{
+  footer {
     display: none;
   }
-
-  .nover{
+  .nover {
     display: none !important;
   }
-
 }
-
 @media (1200px >= width > 992px) {
   .P {
     width: 50px;
@@ -428,53 +402,42 @@ footer:hover{
   header > input {
     width: 100vw;
   }
-
   header > a {
     text-decoration: none; /* Quitar subrayado */
     color: grey; /* Heredar el color del elemento padre */
   }
-
-  .nover{
+  .nover {
     display: none !important;
   }
 }
-
 @media (992px >= width > 600px) {
   .P {
     width: 50px;
   }
-
   header {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 10px;
   }
-
   header > input {
     width: 100vw;
   }
-
   header > a {
     text-decoration: none; /* Quitar subrayado */
     color: grey; /* Heredar el color del elemento padre */
   }
-
-  .infospam{
+  .infospam {
     flex-direction: column;
   }
-
-  .nover{
+  .nover {
     display: none !important;
   }
-  
 }
-
 @media (600px >= width) {
   .P {
     width: 50px;
   }
-
   header {
     display: flex;
     align-items: center;
@@ -484,7 +447,6 @@ footer:hover{
   header > input {
     width: 100vw;
   }
-
   header > a {
     text-decoration: none; /* Quitar subrayado */
     color: grey; /* Heredar el color del elemento padre */
@@ -492,18 +454,16 @@ footer:hover{
   .barra > a {
     gap: 5px;
   }
-
-  .spam{
+  .spam {
     display: none;
   }
-  footer{
+  footer {
     display: none;
   }
-  .ver{
+  .ver {
     display: none;
   }
-
-  .abajo{
+  .abajo {
     width: auto;
   }
-}
+}/*# sourceMappingURL=styles.css.map */

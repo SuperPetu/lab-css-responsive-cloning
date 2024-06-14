@@ -1,13 +1,375 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>CSS Lab | Responsive Cloning | Product Hunt</title>
-  <link rel="stylesheet" href="styles.min.css">
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Lab | Responsive Cloning | Product Hunt</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="principio">
+      <header>
+        <img class="P" src="./images/logo.png" alt="" />
+        <input
+          type="text"
+          placeholder="Discover your next favourite thing..."
+        />
+        <a href="">...</a>
+        <a href="">login</a>
+      </header>
+
+      <div class="barra">
+        <a href="">Home</a>
+        <a href="">Tech</a>
+        <a href="">Games</a>
+        <a href="">Podcasts</a>
+        <a href="">Books</a>
+        <a href="">Bots</a>
+        <a href="">Developer Tools</a>
+        <a href="">iMessage Apps</a>
+        <a href="">iPhone</a>
+        <a href="">Photography Tools</a>
+        <div class="flechas">
+          <img class="flecha2" src="./images/arrow-prev.png" alt="" />
+          <img class="flecha1" src="./images/arrow-next.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="spam">
+      <div class="infospam">
+        <div class="wel">
+          <p class="negrita">👋Welcome to Product Hunt</p>
+          <p>Get the best new products in your inbox, daily</p>
+        </div>
+        <div class="sub">
+          <input type="text" placeholder="Your email" />
+          <button>SUBSCRIBE</button>
+        </div>
+      </div>
+      <img class="X" src="./images/close.png" alt="" />
+    </div>
+
+    <main>
+      <div class="izquierda">
+        <div class="box-1">
+          <div class="linea-1">
+            <h1>Popular this week</h1>
+            <img class="X" src="./images/close.png" alt="" />
+          </div>
+          <hr>
+          <div class="linea-2">
+            <div class="foto">
+              <img src="./images/popular-this-week/app-1.png" alt="" />
+            </div>
+            <div class="texto">
+              <h2>Duolingo Bots</h2>
+              <p class="gris">AI-powered characters to teach language conversation</p>
+              <div class="abajo">
+              <div class="data">
+                <div class="yap">
+                  <img class="voto" src="./images/votes.png" alt="">
+                  <p>1460</p>
+                </div>
+                <div class="yap">
+                  <img src="./images/comments.png" alt="">
+                  <p class="gris">49</p>
+                </div>
+                <div class="yap nover">
+                  <p class="gris">💾 SAVE</p>
+                </div>
+                <div class="yap nover">
+                  <p class="gris">📤</p>
+                </div>
+              </div>
+              <div class="os ver">
+                <div class="movil">IPHONE</div>
+                  <div>+2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="linea-3">
+            <div class="foto">
+              <img src="./images/popular-this-week/app-2.png" alt="" />
+            </div>
+            <div class="texto">
+              <h2>Tribe 2.0</h2>
+              <p class="gris">Introducing Augmented Messaging</p>
+              <div class="abajo">
+                <div class="data">
+                  <div class="yap">
+                    <img class="voto" src="./images/votes.png" alt="">
+                    <p>1460</p>
+                  </div>
+                  <div class="yap">
+                    <img src="./images/comments.png" alt="">
+                    <p class="gris">49</p>
+                  </div>
+                  <div class="yap nover">
+                    <p class="gris">💾 SAVE</p>
+                  </div>
+                  <div class="yap nover">
+                    <p class="gris">📤</p>
+                  </div>
+                </div>
+                <div class="os ver">
+                  <div class="movil">IPHONE</div>
+                    <div>+2</div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <hr>
+          <div class="linea-4">
+            <div class="foto">
+              <img src="./images/popular-this-week/app-3.png" alt="" />
+            </div>
+            <div class="texto">
+              <h2 class="gris">Workplace by Facebook</h2>
+              <p class="gris">Connect Everyone in your company and turn ideas into action</p>
+              <div class="abajo">
+                <div class="data">
+                  <div class="yap">
+                    <img class="voto" src="./images/votes.png" alt="">
+                    <p>1460</p>
+                  </div>
+                  <div class="yap">
+                    <img src="./images/comments.png" alt="">
+                    <p class="gris">49</p>
+                  </div>
+                  <div class="yap nover">
+                    <p class="gris">💾 SAVE</p>
+                  </div>
+                  <div class="yap nover">
+                    <p class="gris">📤</p>
+                  </div>
+                </div>
+                <div class="os ver">
+                  <div class="movil">ANDROID</div>
+                    <div>+10</div>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <hr>
+          <div class="linea-5">
+            <img class="X" src="./images/arrow-down.png" alt="">
+            <p class="gris">SEE MORE</p>
+          </div>
+        </div>
+        <div class="box-1">
+            <div class="linea-1">
+              <h1>Today</h1>
+              <div class="popnew"><p class="negrita">Popular</p>
+                <p class="gris negrita">Newest</p></div>
+              </div>
+            <hr>
+            <div class="linea-2">
+              <div class="foto">
+                <img src="./images/today/app-1.png" alt="" />
+              </div>
+              <div class="texto">
+                <h2>Sprayscape</h2>
+                <p class="gris">A perfectly imperfect VR-ish camera experiment, by Google</p>
+                <div class="abajo">
+                  <div class="data">
+                    <div class="yap">
+                      <img class="voto" src="./images/votes.png" alt="">
+                      <p>1460</p>
+                    </div>
+                    <div class="yap">
+                      <img src="./images/comments.png" alt="">
+                      <p class="gris">49</p>
+                    </div>
+                    <div class="yap nover">
+                      <p class="gris">💾 SAVE</p>
+                    </div>
+                    <div class="yap nover">
+                      <p class="gris">📤</p>
+                    </div>
+                  </div>
+                  <div class="os ver">
+                    <div class="movil">ANDROID</div>
+                      <div>+1</div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <hr>
+            <div class="linea-3">
+              <div class="foto">
+                <img src="./images/today/app-2.png" alt="" />
+              </div>
+              <div class="texto">
+                <h2>Ask Gary Vee</h2>
+                <p class="gris">The unofficial Gary Vee persona chatbot on Messenger!</p>
+                <div class="abajo">
+                  <div class="data">
+                    <div class="yap">
+                      <img class="voto" src="./images/votes.png" alt="">
+                      <p>1460</p>
+                    </div>
+                    <div class="yap">
+                      <img src="./images/comments.png" alt="">
+                      <p class="gris">49</p>
+                    </div>
+                    <div class="yap nover">
+                      <p class="gris">💾 SAVE</p>
+                    </div>
+                    <div class="yap nover">
+                      <p class="gris">📤</p>
+                    </div>
+                  </div>
+                  <div class="os ver">
+                    <div class="movil">IPHONE</div>
+                      <div>+2</div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <hr>
+            <div class="linea-4">
+              <div class="foto">
+                <img src="./images/today/app-3.png" alt="" />
+              </div>
+              <div class="texto">
+                <h2>The Electron Wheel</h2>
+                <p class="gris">Turn your standard bicycle into an electric bike</p>
+                <div class="abajo">
+                  <div class="data">
+                    <div class="yap">
+                      <img class="voto" src="./images/votes.png" alt="">
+                      <p>1460</p>
+                    </div>
+                    <div class="yap">
+                      <img src="./images/comments.png" alt="">
+                      <p class="gris">49</p>
+                    </div>
+                    <div class="yap nover">
+                      <p class="gris">💾 SAVE</p>
+                    </div>
+                    <div class="yap nover">
+                      <p class="gris">📤</p>
+                    </div>
+                  </div>
+                  <div class="os ver">
+                    <div class="movil">ANDROID</div>
+                      <div>+6</div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <hr>
+            <div class="linea-4">
+              <div class="foto">
+                <img src="./images/cap.png" alt="" />
+              </div>
+              <div class="texto">
+                <h2>Lattice Reviews</h2>
+                <p class="gris">360 degree feedback and performance reviews</p>
+                <div class="abajo">
+                  <div class="data">
+                    <div class="yap">
+                      <img class="voto" src="./images/votes.png" alt="">
+                      <p>1460</p>
+                    </div>
+                    <div class="yap">
+                      <img src="./images/comments.png" alt="">
+                      <p class="gris">49</p>
+                    </div>
+                    <div class="yap nover">
+                      <p class="gris">💾 SAVE</p>
+                    </div>
+                    <div class="yap nover">
+                      <p class="gris">📤</p>
+                    </div>
+                  </div>
+                  <div class="os ver">
+                    <div class="movil">IPHONE</div>
+                      <div>+4</div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="derecha">
+        <div class="box-3">
+          <div class="linea-1">
+            <h1>Kittybot for Slack.</h1>
+            <img class="X" src="./images/close.png" alt="" />
+          </div>
+          <div class="linea-2">
+            <p class="gris">A friendly feline that sends you cool new things.</p>
+            <button>🛒 ADD KITTYBOT TO SLACK</button>
+          </div>
+        </div>
+        <div class="box-3">
+          <div class="linea-1">
+            <h1>UPCOMING LIVE CHATS</h1>
+          </div>
+          <hr>
+          <div class="user">
+          <img src="./images/users/1r.jpg" alt="">
+          <div class="texto">
+            <p>Duolingo Bots</p>
+            <p class="gris">AI-powered characters to teach language conversation</p>
+            <div class="abajo">
+              <div class="yap">REMIND ME</div>
+            </div>
+          </div>
+        </div>
+          <hr>
+          <div class="user">
+          <img src="./images/users/5t.jpg" alt="">
+          <div class="texto">
+            <p>Duolingo Bots</p>
+            <p class="gris">AI-powered characters to teach language conversation</p>
+            <div class="abajo">
+              <div class="yap">REMIND ME</div>
+            </div>
+          </div>
+          </div>
+          <hr>
+          <div class="user">
+          <img src="./images/users/3r.jpg" alt="">
+          <div class="texto">
+            <p>Duolingo Bots</p>
+            <p class="gris">AI-powered characters to teach language conversation</p>
+            <div class="abajo">
+              <div class="yap">REMIND ME</div>
+            </div>
+          </div>
+          </div>
+          <hr>
+          <div class="user">
+
+          <img src="./images/users/4t.jpg" alt="">
+          <div class="texto">
+            <p>Duolingo Bots</p>
+            <p class="gris">AI-powered characters to teach language conversation</p>
+            <div class="abajo">
+              <div class="yap">REMIND ME</div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <div class="box-3">
+          <div class="linea-1">
+            <h1>Tweets</h1>
+          </div>
+          <div class="linea-2">
+            
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>🗣</p>
+    </footer>
+  </body>
 </html>
